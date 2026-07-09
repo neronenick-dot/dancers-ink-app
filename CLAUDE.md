@@ -1,5 +1,11 @@
 # Dancers Ink — App Documentation
 
+## Project Rules
+
+This project follows the global Claude Design OS defaults (`~/.claude/CLAUDE.md`): premium, human, accessible, no AI-generated or generic-SaaS feel. No em dashes anywhere — code comments, docs, or in-app copy.
+
+Dev server default is port 5173 (`vite.config.js`). If that port is taken, Vite auto-increments (has run on 5175+ before) — check the actual terminal output rather than assuming 5173.
+
 ## What this is
 A PWA-first mobile app for Dancers Ink dance studio (Mesa, AZ). Parents install it to their iPhone/iPad home screen via Safari. It provides:
 - Role-based login (admin / parent)
